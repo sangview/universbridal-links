@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Univers Bridal · Liens</title>
+  <meta name="description" content="Retrouvez Univers Bridal sur Instagram, TikTok, Facebook et contactez-nous directement sur WhatsApp.">
+  <meta name="theme-color" content="#FBF7F2">
+  <link rel="canonical" href="https://links.universbridal.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Aperçu quand le lien est partagé (WhatsApp, Instagram, Facebook…) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://links.universbridal.com/">
+  <meta property="og:title" content="Univers Bridal">
+  <meta property="og:description" content="Nos réseaux et un contact direct sur WhatsApp.">
+  <!-- <meta property="og:image" content="https://links.universbridal.com/apercu.jpg"> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #FBF7F2;
+      --bg-2: #F3EADF;
+      --card: #FFFFFF;
+      --ink: #2B2420;
+      --muted: #8A7D72;
+      --gold: #B8976A;
+      --gold-soft: #E7D8C3;
+      --accent: #2B2420;
+      --accent-ink: #FBF7F2;
+      --wa: #1F8A5B;
+      color-scheme: light;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% 0%, var(--bg-2), transparent 70%),
+        var(--bg);
+      color: var(--ink);
+      font-family: "Jost", system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      justify-content: center;
+      padding: max(48px, env(safe-area-inset-top)) 16px max(32px, env(safe-area-inset-bottom));
+    }
+    main { width: 100%; max-width: 460px; display: flex; flex-direction: column; align-items: center; }
+
+    /* --- En-tête --- */
+    .avatar {
+      width: 104px; height: 104px; border-radius: 50%;
+      display: grid; place-items: center;
+      background: var(--card);
+      border: 1px solid var(--gold-soft);
+      box-shadow: 0 0 0 6px var(--bg), 0 0 0 7px var(--gold-soft), 0 10px 30px -12px rgba(120, 90, 50, .35);
+      overflow: hidden;
+    }
+    .avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .avatar .monogram {
+      font-family: "Cormorant Garamond", serif; font-weight: 600; font-size: 40px;
+      color: var(--gold); letter-spacing: .02em;
+    }
+    h1 {
+      font-family: "Cormorant Garamond", serif; font-weight: 600;
+      font-size: clamp(30px, 8vw, 38px); letter-spacing: .04em;
+      margin: 26px 0 4px; text-align: center;
+    }
+    .tagline {
+      margin: 0; color: var(--muted); font-size: 15px; text-align: center;
+      line-height: 1.5; max-width: 34ch;
+    }
+    .divider {
+      display: flex; align-items: center; gap: 12px; color: var(--gold);
+      margin: 26px 0 22px; width: 60%;
+    }
+    .divider::before, .divider::after { content: ""; flex: 1; height: 1px; background: var(--gold-soft); }
+
+    /* --- Boutons --- */
+    .links { list-style: none; padding: 0; margin: 0; width: 100%; display: grid; gap: 12px; }
+    .btn {
+      display: flex; align-items: center; gap: 14px;
+      min-height: 60px; padding: 12px 18px;
+      background: var(--card);
+      border: 1px solid var(--gold-soft);
+      border-radius: 16px;
+      color: var(--ink); text-decoration: none;
+      font-size: 16px; font-weight: 500; letter-spacing: .01em;
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+      box-shadow: 0 1px 2px rgba(60, 40, 20, .04);
+    }
+    .btn:hover { transform: translateY(-2px); border-color: var(--gold); box-shadow: 0 10px 24px -14px rgba(120, 90, 50, .45); }
+    .btn:active { transform: translateY(0); }
+    .btn:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+    .btn .ico { width: 24px; height: 24px; flex: none; color: var(--gold); }
+    .btn .label { flex: 1; }
+    .btn .sub { display: block; font-size: 13px; font-weight: 400; color: var(--muted); margin-top: 1px; }
+    .btn .arrow { width: 18px; height: 18px; color: var(--gold-soft); flex: none; transition: color .18s, transform .18s; }
+    .btn:hover .arrow { color: var(--gold); transform: translateX(2px); }
+
+    .btn.primary { background: var(--wa); border-color: var(--wa); color: #fff; }
+    .btn.primary .ico, .btn.primary .arrow { color: #fff; }
+    .btn.primary .sub { color: rgba(255,255,255,.82); }
+    .btn.primary:hover { border-color: var(--wa); box-shadow: 0 12px 28px -14px rgba(31, 138, 91, .7); }
+
+    footer { margin-top: 36px; color: var(--muted); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+    footer a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--gold-soft); }
+
+    @media (prefers-reduced-motion: reduce) { .btn, .btn .arrow { transition: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="avatar" aria-hidden="true">
+      <!-- Remplacez par votre logo : <img src="logo.jpg" alt=""> -->
+      <span class="monogram">UB</span>
+    </div>
+    <h1 id="name">Univers Bridal</h1>
+    <p class="tagline" id="tagline"></p>
+    <div class="divider" aria-hidden="true">✦</div>
+
+    <ul class="links" id="links"></ul>
+
+    <footer><a href="https://universbridal.com/">universbridal.com</a></footer>
+  </main>
+
+  <script>
+    /* =====================================================================
+       ✏️  À MODIFIER — tout se règle ici
+       ===================================================================== */
+    const PROFILE = {
+      name: "Univers Bridal",
+      tagline: "Robes de mariée & accessoires — sublimer votre plus beau jour.",
+
+      whatsapp: {
+        // Numéro au format international, chiffres uniquement, sans + ni 0 initial
+        // ex. France 06 12 34 56 78  →  "33612345678"
+        number: "33774858061",
+        // Message pré-rempli quand la personne ouvre la conversation
+        message: "Bonjour Univers Bridal, je souhaiterais avoir des informations.",
+        label: "Nous écrire sur WhatsApp",
+        sub: "Réponse rapide",
+      },
+
+      // Supprimez une ligne pour cacher un réseau, changez l'ordre comme vous voulez
+      links: [
+        { icon: "instagram", label: "Instagram", sub: "@univers.bridal",   url: "https://www.instagram.com/univers.bridal/" },
+        { icon: "tiktok",    label: "TikTok",    sub: "@bridal.glory",     url: "https://www.tiktok.com/@bridal.glory" },
+        { icon: "facebook",  label: "Facebook",  sub: "Univers Bridal",    url: "https://www.facebook.com/profile.php?id=61550023395044" },
+        { icon: "globe",     label: "Site web",  sub: "universbridal.com", url: "https://universbridal.com/" },
+      ],
+    };
+    /* ===================================================================== */
+
+    const ICONS = {
+      whatsapp: '<path d="M3.5 20.5l1.3-4.3A8.5 8.5 0 1 1 8 19.4z"/><path d="M9.2 8.3c-.3 3.2 3.3 6.8 6.5 6.5l.9-1.4-2-1.1-.9.7c-1-.4-2-1.4-2.4-2.4l.7-.9-1.1-2z" fill="currentColor" stroke="none"/>',
+      instagram: '<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/>',
+      tiktok: '<path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.7 2.3 4.5 5 4.7"/>',
+      facebook: '<path d="M14.5 21v-7.5h2.7l.4-3.1h-3.1V8.6c0-.9.3-1.5 1.6-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.1H9v3.1h2.5V21"/>',
+      pinterest: '<circle cx="12" cy="12" r="9"/><path d="M11 13.2 9.4 20"/><path d="M8.6 12.6c-.8-3.2 1.4-5.8 4.3-5.8 2.6 0 4 1.8 4 3.9 0 2.6-1.4 4.6-3.3 4.6-1.4 0-2.3-1.1-2-2.4l.6-2.5"/>',
+      youtube: '<rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.5 9.5v5l4-2.5z" fill="currentColor"/>',
+      globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>',
+      mail: '<rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/>',
+    };
+    const svg = (name, cls) =>
+      `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name] || ICONS.globe}</svg>`;
+    const arrow = '<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>';
+
+    const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+    function item({ icon, label, sub, url }, primary = false) {
+      return `<li><a class="btn${primary ? " primary" : ""}" href="${esc(url)}" target="_blank" rel="noopener">
+        ${svg(icon, "ico")}
+        <span class="label">${esc(label)}${sub ? `<span class="sub">${esc(sub)}</span>` : ""}</span>
+        ${arrow}
+      </a></li>`;
+    }
+
+    document.getElementById("name").textContent = PROFILE.name;
+    document.getElementById("tagline").textContent = PROFILE.tagline;
+
+    const wa = PROFILE.whatsapp;
+    const waUrl = `https://wa.me/${wa.number.replace(/\D/g, "")}?text=${encodeURIComponent(wa.message)}`;
+
+    document.getElementById("links").innerHTML =
+      item({ icon: "whatsapp", label: wa.label, sub: wa.sub, url: waUrl }, true) +
+      PROFILE.links.map(l => item(l)).join("");
+  </script>
+</body>
+</html>
