@@ -10,7 +10,7 @@ Ouvrez `index.html` et éditez le bloc **`PROFILE`** (repéré par « ✏️ À 
 - `whatsapp.message` : message pré-rempli à l'ouverture de la conversation
 - `links` : un réseau par ligne ; supprimez une ligne pour le masquer. Icônes disponibles : `instagram`, `tiktok`, `facebook`, `pinterest`, `youtube`, `globe`, `mail`
 
-Logo : déposez `logo.jpg` à côté de `index.html` et remplacez `<span class="monogram">UB</span>` par `<img src="logo.jpg" alt="">`.
+Logo : remplacez `logo.png` (format carré, fond noir). `og-image.jpg` (aperçu de partage), `favicon.png` et `apple-touch-icon.png` sont tirés du logo : pensez à les régénérer si vous le changez.
 
 ## Mise en ligne (gratuite) — au choix
 
